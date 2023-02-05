@@ -1,0 +1,48 @@
+
+
+<section class="sliderdiv" 
+ style="background-image: url('{{currentSlide.image}}');">
+
+
+    <!--First slide-->
+    <div class="myslide igor">
+    <div class="leftsidetxt">
+    <h2 class="nowtrending">Now Trending</h2>
+
+    <h3 class="album">Album</h3>
+    <h1 class="albumtitle">{{currentSlide.title}}</h1>
+    
+
+    <div class="albumdetails">
+        <p>{{currentSlide.subdetail1}}</p>
+        <img class="dots" src="assets/images/circle-solid.svg" alt="">
+        <p>{{currentSlide.subdetail2}}</p>
+        <img class="dots" src="assets/images/circle-solid.svg" alt="">
+        <p>{{currentSlide.subdetail3}}</p>
+    </div>
+
+    <button [routerLink]="'/album/'+currentSlide.id" class="listennow">Listen Now</button>
+    </div>
+
+
+   <!-- <img src="{{currentSlide.image}}" alt="" class="overlayimg">-->
+   
+       
+ 
+  
+
+    </div>
+
+    </section>
+
+    <section class="body">
+        <app-categorieslist></app-categorieslist>
+        <app-categorieslist></app-categorieslist>
+        <app-categorieslist></app-categorieslist>
+        <app-categorieslist></app-categorieslist>
+
+    </section>
+    
+
+
+    

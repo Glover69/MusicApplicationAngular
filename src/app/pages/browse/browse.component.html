@@ -1,0 +1,28 @@
+<section class="entire-browse">
+    <div class="title">Browse</div>
+
+    <app-categorieslist></app-categorieslist>
+
+    <section class="innertop100">
+
+    <div *ngFor="let details of Details" class="entire-singlecategory">
+        <div class="category-img" 
+        style="background-image: url('{{details.image}}');">
+
+        <div class="top100txt">
+            <p class="daily">Daily</p>
+            <p class="top">Top</p>
+            <p class="num100">100</p>
+        </div>
+        </div>
+
+      
+    
+        <div class="single-cat-details">
+            <h2 class="albumsong-title">{{details.title}}</h2>
+            <h4 class="category-artist">{{details.artist}}</h4>
+        </div>
+    </div>
+
+    </section>
+</section>

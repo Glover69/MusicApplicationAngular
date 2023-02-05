@@ -1,0 +1,104 @@
+{
+  
+ "Top100": [
+  {"image": "assets/images/theworld.jpg","id":"", "title": "Top 100: Global", "artist": "Musify"},
+  {"image": "assets/images/ghana.jpg", "title": "Top 100: Ghana", "artist": "Musify"},
+  {"image": "assets/images/nigeria.jpg", "title": "Top 100: Nigeria", "artist": "Musify"},
+  {"image": "assets/images/UK.jpg", "title": "Top 100: UK", "artist": "Musify"},
+  {"image": "assets/images/USA.jpg", "title": "Top 100: USA", "artist": "Musify"},
+  {"image": "assets/images/canada.jpeg", "title": "Top 100: Canada", "artist": "Musify"}
+],
+
+"NewRelases": [
+  {"image": "assets/images/theworld.jpg","id":"", "title": "Top 100: Global", "artist": "Musify"},
+  {"image": "assets/images/ghana.jpg", "title": "Top 100: Ghana", "artist": "Musify"},
+  {"image": "assets/images/nigeria.jpg", "title": "Top 100: Nigeria", "artist": "Musify"},
+  {"image": "assets/images/UK.jpg", "title": "Top 100: UK", "artist": "Musify"},
+  {"image": "assets/images/USA.jpg", "title": "Top 100: USA", "artist": "Musify"},
+  {"image": "assets/images/canada.jpeg", "title": "Top 100: Canada", "artist": "Musify"}
+],
+
+"ProfileDetails": [
+  {"image": "", "fullName": "", "userName": ""}
+],
+
+
+
+"SongsList" : [
+  {"id" : 1, "order": 1, "name" : "Threat", "timeframe" : "2:51",  "albumid" : "7"},
+
+
+  {"id" : 1, "order": 1, "name" : "IGOR'S THEME", "timeframe" : "3:20",  "albumid" : "1"},
+  {"id" : 2, "order": 2, "name" : "EARFQUAKE", "timeframe" : "3:20",  "albumid" : "1"},
+  {"id" : 3, "order": 3, "name" : "I THINK", "timeframe" : "3:20",  "albumid" : "1"},
+  {"id" : 4, "order": 4, "name" : "EXACTLY WHAT YOU RUN FROM YOU END UP CHASING", "timeframe" : "3:20",  "albumid" : "1"},
+  {"id" : 5, "order": 5, "name" : "RUNNING OUT OF TIME", "timeframe" : "3:20",  "albumid" : "1"},
+  {"id" : 6, "order": 6, "name" : "NEW MAGIC WAND", "timeframe" : "3:20",  "albumid" : "1"},
+  {"id" : 7, "order": 7, "name" : "A BOY IS A GUN", "timeframe" : "3:20",  "albumid" : "1"},
+  {"id" : 8, "order": 8, "name" : "WHAT'S GOOD", "timeframe" : "3:20",  "albumid" : "1"},
+  {"id" : 9, "order": 9, "name" : "PUPPET", "timeframe" : "3:20",  "albumid" : "1"},
+  {"id" : 10,"order": 10,"name" : "GONE, GONE/ THANK YOU", "timeframe" : "3:20",  "albumid" : "1"},
+  {"id" : 11,"order": 11,"name" : "I DON'T LOVE YOU ANYMORE", "timeframe" : "3:20",  "albumid" : "1"},
+  {"id" : 12,"order": 12,"name" : "ARE WE STILL FRIENDS?", "timeframe" : "3:20",  "albumid" : "1"},
+
+
+  {"id" : 1, "order": 1, "name" : "Mayana", "timeframe" : "3:20",  "albumid" : "8"},
+  {"id" : 2, "order": 2, "name" : "Ocean", "timeframe" : "3:20",  "albumid" : "8"},
+  {"id" : 3, "order": 3, "name" : "IDG (ft. Wizkid)", "timeframe" : "3:20",  "albumid" : "8"},
+  {"id" : 4, "order": 4, "name" : "Nike", "timeframe" : "3:20",  "albumid" : "8"},
+  {"id" : 5, "order": 5, "name" : "Show Me Off", "timeframe" : "3:20",  "albumid" : "8"},
+  {"id" : 6, "order": 6, "name" : "Morning Man", "timeframe" : "3:20",  "albumid" : "8"},
+  {"id" : 7, "order": 7, "name" : "Good Times", "timeframe" : "3:20",  "albumid" : "8"},
+  {"id" : 8, "order": 8, "name" : "Believer", "timeframe" : "3:20",  "albumid" : "8"},
+  {"id" : 9, "order": 9, "name" : "All I Ever Wanted (ft. Amaarae)", "timeframe" : "3:20",  "albumid" : "8"},
+  {"id" : 10,"order": 10,"name" : "Love Me or Give Me Red Wine", "timeframe" : "3:20",  "albumid" : "8"},
+
+
+  {"id" : 1, "order": 1, "name" : "Rich Flex", "timeframe" : "3:20",  "albumid" : "9"},
+  {"id" : 2, "order": 2, "name" : "Major Distribution", "timeframe" : "3:20",  "albumid" : "9"},
+  {"id" : 3, "order": 3, "name" : "On BS", "timeframe" : "3:20",  "albumid" : "9"},
+  {"id" : 4, "order": 4, "name" : "BackOutsideBoyz", "timeframe" : "3:20",  "albumid" : "9"},
+  {"id" : 5, "order": 5, "name" : "Priviledged Rappers", "timeframe" : "3:20",  "albumid" : "9"},
+  {"id" : 6, "order": 6, "name" : "Spin Bout U", "timeframe" : "3:20",  "albumid" : "9"},
+  {"id" : 7, "order": 7, "name" : "Hours In Silence", "timeframe" : "3:20",  "albumid" : "9"},
+  {"id" : 8, "order": 8, "name" : "Treacherous Twins", "timeframe" : "3:20",  "albumid" : "9"},
+  {"id" : 9, "order": 9, "name" : "Circo Loco", "timeframe" : "3:20",  "albumid" : "9"},
+  {"id" : 10,"order": 10,"name" : "Pussy & Millions (ft. Travis Scott)", "timeframe" : "3:20", "albumid" : "9"},
+  {"id" : 11,"order": 11,"name" : "Broke Boys", "timeframe" : "3:20",  "albumid" : "9"},
+  {"id" : 12,"order": 12,"name" : "Middle Of The Ocean", "timeframe" : "3:20",  "albumid" : "9"},
+  {"id" : 13,"order": 13,"name" : "Jumbotron Shit Poppin", "timeframe" : "3:20",  "albumid" : "9"},
+  {"id" : 14,"order": 14,"name" : "More M's", "timeframe" : "3:20",  "albumid" : "9"},
+  {"id" : 15,"order": 15,"name" : "3AM on Glenwood", "timeframe" : "3:20",  "albumid" : "9"},
+  {"id" : 16,"order": 16,"name" : "I Guess It's Fuck Me", "timeframe" : "3:20",  "albumid" : "9"},
+
+
+  {"id" : 1, "order": 1, "name" : "Angel", "timeframe" : "3:20",  "albumid" : "3"},
+  {"id" : 2, "order": 2, "name" : "Gorilla", "timeframe" : "3:20",  "albumid" : "3"},
+  {"id" : 3, "order": 3, "name" : "Silhouette", "timeframe" : "3:20",  "albumid" : "3"},
+  {"id" : 4, "order": 4, "name" : "No Merci", "timeframe" : "3:20",  "albumid" : "3"},
+  {"id" : 5, "order": 5, "name" : "X", "timeframe" : "3:20",  "albumid" : "3"},
+  {"id" : 6, "order": 6, "name" : "Heart on Fire", "timeframe" : "3:20",  "albumid" : "3"},
+  {"id" : 7, "order": 7, "name" : "Broken", "timeframe" : "3:20",  "albumid" : "3"},
+  {"id" : 8, "order": 8, "name" : "Sideways", "timeframe" : "3:20",  "albumid" : "3"},
+  {"id" : 9, "order": 9, "name" : "Who Even Cares", "timeframe" : "3:20",  "albumid" : "3"},
+  {"id" : 10,"order": 10,"name" : "Control", "timeframe" : "3:20",  "albumid" : "3"},
+
+
+  {"id" : 1, "order": 1, "name" : "Hate", "timeframe" : "3:20",  "albumid" : "6"},
+  {"id" : 2, "order": 2, "name" : "Nobody Knows (Ladas Road)", "timeframe" : "3:20",  "albumid" : "6"},
+  {"id" : 3, "order": 3, "name" : "GeorgeTown (ft. John Agard)", "timeframe" : "3:20",  "albumid" : "6"},
+  {"id" : 4, "order": 4, "name" : "Speed of Plight", "timeframe" : "3:20",  "albumid" : "6"},
+  {"id" : 5, "order": 5, "name" : "Homerton", "timeframe" : "3:20",  "albumid" : "6"},
+  {"id" : 6, "order": 6, "name" : "Blood on My Nikes", "timeframe" : "3:20",  "albumid" : "6"},
+  {"id" : 7, "order": 7, "name" : "Plastic", "timeframe" : "3:20",  "albumid" : "6"},
+  {"id" : 8, "order": 8, "name" : "A Lasting Place", "timeframe" : "3:20",  "albumid" : "6"},
+  {"id" : 9, "order": 9, "name" : "Polyfilla", "timeframe" : "3:20",  "albumid" : "6"},
+  {"id" : 10,"order": 10,"name" : "HGU", "timeframe" : "3:20",  "albumid" : "6"}
+  ],
+
+  "Audiofiles":[
+
+
+  ]
+  
+}

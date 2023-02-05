@@ -1,0 +1,67 @@
+
+<section *ngIf="pageState===1" class="entire-musicDetails">
+
+        
+        <img src="{{currentAlbum.image}}" alt="">
+        
+        <div class="title">
+        <h1 class="albumtitletxt">{{currentAlbum.title}}</h1> 
+        <img  class="explicit" src="assets/images/Explicit.png" alt="">
+        </div>
+        
+        <div class="submusicdetails">
+            <p class="albumartist">{{currentAlbum.subdetail1}}</p>
+            <img class="dots" src="assets/images/circle-solid.svg" alt="">
+            <p class="albumyear">{{currentAlbum.subdetail2}}</p>
+            <img class="dots" src="assets/images/circle-solid.svg" alt="">
+            <p class="albumgenre">{{currentAlbum.subdetail3}}</p>
+        </div>
+        
+        <p class="bio">{{currentAlbum.bio}}</p>
+
+
+        <div class="bothbuttons">
+
+            <div class="playbuttondiv">
+                
+            <button class="play"> 
+                <img class="playimg" src="assets/images/Play.png" alt="">
+                Play</button>
+            </div>
+
+            <div class="shufflebuttondiv">
+                
+            <button class="shuffle">
+                <img class="shuffleimg" src="assets/images/Shuffle.png" alt="">
+                Shuffle</button>
+            </div>
+        </div>
+
+        <div class="line">
+
+        </div>
+
+        <br/>
+
+      
+        <app-musiclist></app-musiclist>
+    
+        <div class="line">
+
+        </div>
+
+        
+
+</section>
+
+
+
+<section *ngIf="pageState ===0">
+    <app-loadingscreen></app-loadingscreen>
+</section>
+
+
+<section *ngIf="pageState ===3">
+    Failed
+</section>
+

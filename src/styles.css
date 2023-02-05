@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+/* Code for dark mode */
+.light-theme{
+    --background-color: #fff;
+    --nav-background: rgba(69, 79, 99, 0.9);
+}
+
+.dots{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    filter: invert(7%) sepia(95%) saturate(7175%) hue-rotate(329deg) brightness(112%) contrast(100%);
+}
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

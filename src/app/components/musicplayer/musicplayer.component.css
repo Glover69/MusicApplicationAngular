@@ -1,0 +1,114 @@
+.entire-musicplayer{
+    width: 100vw;
+    height: 100px;
+    background-color: #1c1c1e;
+    position: sticky;
+    font-family: 'Righteous';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.leftside{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.leftside img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.leftsidetxt{
+    margin-left: 20px;
+}
+
+ .leftsidetitle{
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.leftsideartist{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.middlesection{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    width: 800px;
+}
+
+.upperside{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+   
+}
+
+.upperside img{
+    margin-right: 50px;
+}
+
+
+
+.rightsection{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-right: 50px;
+}
+
+.time-line{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.current-time{
+    margin-right: 20px;
+    color: white;
+    font-family: 'Righteous';
+}
+
+.total-duration{
+    margin-left: 20px;
+    color: white;
+    font-family: 'Righteous';
+}
+
+.seek-slider{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 2px;
+    background: #fff;
+   width: 100%;
+    color: white;
+    display: flex;
+
+}
+
+.seek-slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+
+.seek-slider:hover{
+    opacity: 1.0;
+}

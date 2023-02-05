@@ -1,0 +1,60 @@
+<section class="entirenav">
+    <div class="logo">
+        <img src="/assets/images/logo.png" alt="">
+    </div>
+
+    <div class="navsection">
+        <div class="menutxt">
+        <h2 class="menu">Menu</h2>
+        </div>
+
+        <!--First section of nav-->
+
+        <div class="navSecOne">
+            <div class="listennowtxt nav-divider" [routerLinkActive]="['active-link']">
+            <a routerLink="/listen" [routerLinkActive]="['active-link']" class="listennow">Listen Now</a>
+            </div>
+
+            <div class="browsetxt nav-divider" [routerLinkActive]="['active-link']">
+            <a routerLink="/browse" [routerLinkActive]="['active-link']" class="Browse">Browse</a>
+            </div>
+
+            <div class="radiotxt nav-divider" [routerLinkActive]="['active-link']">
+             <a routerLink="/radio" [routerLinkActive]="['active-link']" class="radio">Radio</a>
+            </div>
+            </div>
+
+
+            <div class="menutxt">
+                <h2 class="menu">Library</h2>
+                </div>
+        <!--Second section of nav-->
+
+        <div class="navSecOne">
+            <div class="recAddedtxt nav-divider" [routerLinkActive]="['active-link']">
+            <a routerLink="/recently-added" [routerLinkActive]="['active-link']"  class="recently-added">Recently Added</a>
+            </div>
+
+            <div class="albumstxt nav-divider" [routerLinkActive]="['active-link']">
+            <a routerLink="/albums" [routerLinkActive]="['active-link']" class="albums">Albums</a>
+            </div>
+
+            <div class="favoritestxt nav-divider" [routerLinkActive]="['active-link']">
+             <a routerLink="/favorites" [routerLinkActive]="['active-link']" class="radio">Favorites</a>
+            </div>
+
+            <div class="songstxt nav-divider" [routerLinkActive]="['active-link']">
+                <a routerLink="/songs" [routerLinkActive]="['active-link']" class="songs">Songs</a>
+                </div>
+    
+            <div class="artiststxt nav-divider" [routerLinkActive]="['active-link']">
+            <a routerLink="/artists" [routerLinkActive]="['active-link']" class="artists">Artists</a>
+            </div>
+            </div>
+        
+
+
+    </div>
+
+    <app-topnav></app-topnav>
+</section>

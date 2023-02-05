@@ -1,0 +1,39 @@
+.one-musiclist{
+width: 80%;
+height: 40px;
+font-family: 'Righteous';
+display: flex;
+align-items: center;
+justify-content: space-around;
+ margin-left: 180px;
+}
+
+.num{
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.title{
+    width: 190%;
+    margin-left: 100px;
+    color: white;
+}
+
+.time{
+    margin-right: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+button{
+    margin-right: 50px;
+}
+
+.morebtn{
+    margin-top: -20px;
+}
+.morebtnimg{
+    width: 24px;
+    height: 6px;
+  
+}

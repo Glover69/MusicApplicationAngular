@@ -1,0 +1,56 @@
+<section class="entire-musicplayer">
+    <div class="leftside">
+        <img src="assets/images/threat.jpeg" alt="">
+
+        <div class="leftsidetxt">
+            <p class="leftsidetitle">Threat</p>
+            <p class="leftsideartist">Rex Orange County</p>
+        </div>
+    </div>
+
+
+    <div class="middlesection">
+        <div class="upperside">
+            <button mat-icon-button color="primary" aria-label="Example icon button with a menu icon">
+                <img src="assets/images/Shuffle.png" alt="">
+            </button>
+            <button mat-icon-button color="primary" aria-label="Example icon button with a menu icon">
+                <img src="assets/images/Rewind.png" alt="">
+            </button>
+            
+            <button (click)="togglePlay()" mat-icon-button color="primary" aria-label="Example icon button with a menu icon">
+                <img [src]="togglePlayButtonAsset" alt="">
+            </button>
+            
+            <button mat-icon-button color="primary" aria-label="Example icon button with a menu icon">
+                <img src="assets/images/Rewind.png" alt="">
+            </button>
+
+        </div>
+
+        <div class="lowerside">
+
+            <audio
+            #musicPlayer
+            
+            [src]="url">
+              
+        </audio>
+
+            <div class="time-line">
+                <div class="current-time">00:00</div>
+                <input type="range" max="100" min="0" value="0" class="seek-slider" onchange="seekto()" >
+                <div class="total-duration">00:00</div>
+              </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="rightsection">
+        <img src="assets/images/AirPods 3.png" alt="">
+        <p>John's AirPods</p>
+    </div>
+</section>

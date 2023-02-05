@@ -1,0 +1,12 @@
+<div *ngFor="let list of DetailsThreat" class="one-musiclist">
+    <p class="num">{{list.order}}</p>
+    <p class="title">{{list.name}}</p>
+    <p class="time">{{list.timeframe}}</p>
+
+    <button mat-icon-button color="warn" aria-label="Example icon button with a heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+      <button class="morebtn" mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+        <img class="morebtnimg" src="assets/images/more.png" alt="">
+      </button>
+</div>

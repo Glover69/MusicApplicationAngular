@@ -1,0 +1,19 @@
+.entire-categorylist{
+   text-align: left;
+
+}
+
+.categorytitle{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Righteous';
+    font-weight: 100;
+}
+
+app-singlecategoryitem{
+    display: flex;
+    justify-content: space-evenly;
+}
